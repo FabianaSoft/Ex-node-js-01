@@ -1,7 +1,6 @@
 {
   "name": "ex-node-js-01",
   "version": "1.0.0",
-  "description": "",
   "main": "calculadora.js",
   "scripts": {
     "test": "jest"
@@ -11,5 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
