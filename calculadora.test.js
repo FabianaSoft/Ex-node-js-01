@@ -21,3 +21,8 @@ test('divideDoisNumeros', () => {
     expect(divideDoisNumeros(6, 3)).toBe(2);
 }); 
 
+test('divideDoisNumeros por zero', () => {   
+    expect(divideDoisNumeros(6, 0)).toBe(-101);
+});
+
+

@@ -11,6 +11,9 @@ function multiplicaDoisNumeros(numeroUm, numeroDois){
 }   
 
 function divideDoisNumeros(numeroUm, numeroDois){
+    if(numeroDois===0){
+        return -101;
+    }
     return numeroUm / numeroDois;
 }
 
